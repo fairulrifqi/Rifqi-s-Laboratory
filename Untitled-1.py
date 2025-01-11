@@ -15,7 +15,7 @@ def main():
     else:
         st.write("Goodbye")
     
-    name = st.text_input("Siapa namamu:")
+    name = st.text_input("Masukkan namamu:")
     if name:
         st.write(f"Hello, {name}!")
     
